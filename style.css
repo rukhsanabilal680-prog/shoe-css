@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAH3RSHi6iMFKJuU1cptk86mVTMXtDH2V4QvDjt3qxJw&s=10");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 80px;
+}
+
+.card {
+    width: 750px;
+    height: 350px;
+    background-color: #292e42;
+    margin: auto;
+    position: relative;
+}
+
+.shoe-section {
+    width: 50%;
+    height: 100%;
+    border-radius: 0 50% 50% 0;
+    background-color: #ff6638;
+    float: left;
+    position: relative;
+    overflow: visible;
+}
+
+.orange-circle {
+    display: none;
+}
+
+.shoe-section img {
+    width: 420px;
+    position: absolute;
+    left: -50px;
+    top: -20px;
+    z-index: 2;
+}
+
+.arrows {
+    color: white;
+    position: absolute;
+    bottom: 25px;
+    left: 80px;
+    font-size: 20px;
+    z-index: 5;
+}
+
+.arrows i {
+    cursor: pointer;
+}
+
+.arrows i:hover {
+    color: black;
+}
+
+.details {
+    width: 43%;
+    height: 100%;
+    float: right;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.details h2 {
+    color: #ff6638;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.collection {
+    color: #dddddd;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.details h1 {
+    font-size: 25px;
+    margin-top: 5px;
+    z-index: 2;
+}
+
+.price {
+    margin-top: 15px;
+}
+
+.price span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.price del {
+    color: #cccccc;
+    margin-left: 25px;
+}
+
+.label {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.sizes {
+    display: inline-block;
+}
+
+.sizes span {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 12px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+}
+
+.colors {
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.colors span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.yellow {
+    background-color: #ffc400;
+}
+
+.black {
+    background-color: black;
+}
+
+.blue {
+    background-color: #04b9eb;
+
+}
+
+.icon:hover {
+    color: #ff6638;
+    cursor: pointer;
+}
+
+.fa-bag-shopping {
+    margin-left: 40px;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.fa-cart-shopping {
+    margin-right: 5px;
+} 
+
+.sizes span:hover {
+    background-color: #ff6638;
+    color: white;
+}
+
+.space {
+    margin-right: 5px;
+}
+
